@@ -18,3 +18,22 @@ que se puede instanciar múltiples veces con distintos inputs.
 | archivo_creado | Ruta del archivo generado |
 
 ## Uso
+
+module "mi_bit" {
+
+source      = "./modules/bit-config"
+
+nombre      = "mi-automatizacion"
+
+descripcion = "Descripcion de lo que hace"
+
+}
+
+## Correr localmente
+
+
+terraform init
+
+terraform plan
+
+terraform apply
