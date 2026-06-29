@@ -1,0 +1,3 @@
+Bit: backup-db
+Descripcion: Automatizacion que hace backup de la base de datos cada noche
+Creado por: Terraform
